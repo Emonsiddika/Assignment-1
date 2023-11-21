@@ -1,0 +1,165 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navbarSectionDiv{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+   background-color: #328873;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 20px;
+}
+
+span{
+    color: rgb(50, 199, 50);
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+    
+ }
+ /* navbar section end */
+  /* about section start */
+
+ #bannarImageSEction{
+    background-image: url(./business-people-holding-word-careers\ 1.png);
+    height: 90vh;
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+ }
+
+ #AboutSection{
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 20px;
+padding: 10px;
+background-color:#E9E9E9;
+ }
+
+ #aboutSectionTextDiv{
+width: 40%;
+
+ }
+
+ #aboutSectionTextDiv>h1{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ #aboutSectionTextDiv>p{
+text-align: justify;
+line-break: 25px;
+
+ }
+
+ #aboutSectionTextDiv>button{
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color:#00D916 ;
+    color: white;
+    border: none;
+    box-shadow: 0px 4px 8px 2px gray;
+    
+ }
+ button:hover{
+    transition: 1s;
+    background-color:  rgb(27, 103, 27);
+ }
+ /* about section end */
+ /* product section start */
+
+ .productImageMainDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px;
+    padding: 20px;
+ }
+
+.productSectionTextDiv{
+    background-color: #00D916;
+  padding: 10px;
+ 
+}
+
+.productSectionButton{
+    padding: 5px 20px;
+    font-size: 14px;
+    background-color:black ;
+    color: white;
+    border: none;
+    
+   
+}
+#productButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#productButton>button{
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color:#00D916 ;
+    color: white;
+    border: none;
+    box-shadow: 0px 4px 8px 2px gray;
+}
+
+#contactSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    background-color: #E9E9E9;
+    margin: 20px;
+}
+
+#inputDiv{
+display: flex;
+justify-content: start;
+align-items: start;
+gap: 20px;
+flex-direction: column;
+
+}
+
+.inputDivText{
+padding: 10px 20px;
+border-radius: 4px;
+font-size: 20;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+border: none;
+
+
+}
+
+#submitButton{
+    border-radius: 8px;
+    padding: 12px 30px;
+    font-size: 18px;
+    background-color:#00D916 ;
+    color: white;
+    border: none;
+    box-shadow: 0px 4px 8px 2px gray;
+}
